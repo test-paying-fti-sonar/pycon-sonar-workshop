@@ -8,6 +8,7 @@ with open("pokedex/schema.sql") as f:
 
 cur = connection.cursor()
 
+
 with open("pokemon.txt") as file:
     lines = file.readlines()
     pokemon_number = 1
